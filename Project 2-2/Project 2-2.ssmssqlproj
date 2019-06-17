@@ -157,6 +157,30 @@
           <AssociatedConnUserName>user-01</AssociatedConnUserName>
           <FullPath>Query-06-B.sql</FullPath>
         </FileNode>
+        <FileNode Name="Query-06-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-06-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-06-TSK-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-06-TSK-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-06-TSK-C.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-06-TSK-C.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-06-TSK-D.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-06-TSK-D.sql</FullPath>
+        </FileNode>
         <FileNode Name="Query-XML-00.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>

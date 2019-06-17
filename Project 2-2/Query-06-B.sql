@@ -73,6 +73,72 @@ FROM
 
 -------------------------------------------------------------------------------------------
 
--- Variant 3 (correlated subquery)
+-- Variant 3 (correlated subquery - 1)
 
+SELECT
+    [b_id] AS [ID],
+    [b_name] AS [Name],
+	[b_quantity] AS [Total Quantity],
+	[b_quantity] - ISNULL
+	(
+		(
+			SELECT   COUNT(*)
+			FROM     [library].[dbo].[subscriptions]
+			WHERE    [sb_is_active] = 'Y'
+			GROUP BY [sb_book]
+			HAVING   [outer].[b_id] = [subscriptions].[sb_book]
+		),
+	0) AS [Actual Quantity]
+FROM
+    [library].[dbo].[books] AS [outer];
 
+-- Variant 4 (correlated subquery - 2)
+
+SELECT
+    [b_id] AS [ID],
+    [b_name] AS [Name],
+	[b_quantity] AS [Total Quantity],
+	ISNULL(
+	(
+	    SELECT COUNT(*)
+		FROM [library].[dbo].[subscriptions]
+		WHERE [sb_is_active] = 'Y' AND [sb_book] = [outer].[b_id]
+	),
+	0) AS [On Hands],
+	[b_quantity] - ISNULL(
+	(
+	    SELECT COUNT(*)
+		FROM [library].[dbo].[subscriptions]
+		WHERE [sb_is_active] = 'Y' AND [sb_book] = [outer].[b_id] 
+	),
+	0) AS [Actual Quantity]
+FROM
+    [library].[dbo].[books] AS [outer];
+
+-- Variant 5 (CTE and correlated subquery (CTE without JOINs in outer Query))
+
+WITH [books_on_hands] AS
+(
+    SELECT   [sb_book] AS [book], COUNT(*) AS [quantity]
+	FROM     [library].[dbo].[subscriptions]
+	WHERE    [sb_is_active] = 'Y'
+	GROUP BY [sb_book]
+)
+SELECT
+    [b_id] AS [ID],
+    [b_name] AS [Name],
+	[b_quantity] AS [Total Quantity],
+	ISNULL(
+	(
+	    SELECT [quantity]
+		FROM   [books_on_hands] AS [inner]
+		WHERE  [inner].[book] = [outer].[b_id]
+	), 0) AS [On Hands],
+	[b_quantity] - ISNULL(
+	(
+	    SELECT [quantity]
+		FROM   [books_on_hands] AS [inner]
+		WHERE  [inner].[book] = [outer].[b_id]
+	), 0) AS "Actual Quantity"
+FROM
+    [library].[dbo].[books] AS [outer];

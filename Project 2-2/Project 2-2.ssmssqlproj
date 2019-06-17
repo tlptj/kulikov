@@ -1,0 +1,178 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Project 2-2">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.10.70\sqlexpress:user-01">
+          <Created>2019-06-12T21:15:27.6514195+03:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.10.70\sqlexpress</Server>
+          <UserName>user-01</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+        <ConnectionNode Name="TEXWS216\SQLEXPRESS:user-01">
+          <Created>2019-06-10T11:45:12.4741049+03:00</Created>
+          <Type>SQL</Type>
+          <Server>TEXWS216\SQLEXPRESS</Server>
+          <UserName>user-01</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName />
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Query-01-A.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Query-01-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-01-B.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Query-01-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-01-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-01-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-01-TSK-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-01-TSK-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-C.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-C.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-D.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-D.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-TSK-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-TSK-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-04-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-04-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-04-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-04-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-04-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-04-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-05-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-05-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-05-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-05-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-05-C.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-05-C.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-05-D.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-05-D.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-05-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-05-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-05-TSK-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-05-TSK-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-06-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-06-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-06-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-06-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-XML-00.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-XML-00.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-XML-01.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:TEXWS216\SQLEXPRESS:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>TEXWS216\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-XML-01.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

@@ -19,16 +19,46 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="000 - 01 - Check for Identity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>000 - 01 - Check for Identity.sql</FullPath>
+        </FileNode>
         <FileNode Name="001 - EXISTS - 2-2-07-E.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
           <AssociatedConnUserName>user-01</AssociatedConnUserName>
           <FullPath>001 - EXISTS - 2-2-07-E.sql</FullPath>
         </FileNode>
-        <FileNode Name="Query-XML-00.sql">
+        <FileNode Name="002 - SELECT FROM VALUES.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
+          <FullPath>002 - SELECT FROM VALUES.sql</FullPath>
+        </FileNode>
+        <FileNode Name="003 - FORMAT date.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>003 - FORMAT date.sql</FullPath>
+        </FileNode>
+        <FileNode Name="005 - Select GETDATE.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>005 - Select GETDATE.sql</FullPath>
+        </FileNode>
+        <FileNode Name="006 - Insert multiple rows.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>006 - Insert multiple rows.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-XML-00.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
           <FullPath>Query-XML-00.sql</FullPath>
         </FileNode>
         <FileNode Name="Query-XML-01.sql">

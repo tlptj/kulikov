@@ -1,9 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?>
-<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SqlWorkbenchSqlProject">
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Project 2-3">
   <Items>
-    <LogicalFolder Name="Connections" Type="2" />
-    <LogicalFolder Name="Queries" Type="0" />
-    <LogicalFolder Name="Miscellaneous" Type="3" />
-
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="192.168.10.70\sqlexpress:user-01">
+          <Created>2019-06-22T19:41:59.8905047+03:00</Created>
+          <Type>SQL</Type>
+          <Server>192.168.10.70\sqlexpress</Server>
+          <UserName>user-01</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>library</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Query-01-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-01-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="-Query-01-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>-Query-01-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-01-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-01-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-01-TSK-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-01-TSK-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-02-A.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Query-02-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-02-B.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Query-02-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-02-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-02-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-02-TSK-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-02-TSK-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-TSK-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-03-TSK-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-03-TSK-C.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Query-03-TSK-C.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-04-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-04-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-04-B.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-04-B.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-04-TSK-A.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-04-TSK-A.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Query-XX.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:192.168.10.70\sqlexpress:False:user-01</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>192.168.10.70\sqlexpress</AssociatedConnSrvName>
+          <AssociatedConnUserName>user-01</AssociatedConnUserName>
+          <FullPath>Query-XX.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
   </Items>
 </SqlWorkbenchSqlProject>
